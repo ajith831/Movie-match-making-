@@ -1,0 +1,30 @@
+Data Visualization – Before and After Processing
+
+To understand the impact of data preprocessing on model performance, we created a visual comparative analysis using histograms and bar charts. The visualization is divided into two stages: before processing and after processing.
+
+Before Processing:
+
+Raw data often contains inconsistencies such as varied scales, skewed distributions, and missing values.
+
+We focused on key numeric features: Rating, PeopleVote, Hero_Rating, movie_rating, and content_rating.
+
+Histograms were plotted to show the original distribution of each feature. These visuals revealed the varying scales and non-uniform distributions, which could potentially affect machine learning model performance.
+
+
+After Processing:
+
+We applied Min-Max normalization to rescale the numeric features between 0 and 1.
+
+The same histograms were then generated for the normalized data.
+
+The post-processing visualizations showed a consistent and scaled distribution, making the data more suitable for training AI models.
+
+
+Visual Tools Used:
+
+Seaborn and Matplotlib were employed to generate the plots.
+
+Each variable was plotted side-by-side (original vs. normalized) to clearly observe the transformation.
+
+
+This visual representation demonstrates the importance of preprocessing for effective AI-driven matchmaking and ensures a fair weighting of features when recommending movies.
